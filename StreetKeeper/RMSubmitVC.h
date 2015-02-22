@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RMSubmitVC.h
 //  StreetKeeper
 //
 //  Created by Dan Rudolf on 2/21/15.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RMNewIssue.h"
 
-@interface ViewController : UIViewController
+@interface RMSubmitVC : UIViewController
 
+@property RMNewIssue *issue;
 
 @end
-
